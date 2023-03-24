@@ -1,0 +1,16 @@
+Form{
+   margin-bottom: 5%;
+}
+.Form{
+    background-color: rgb(64, 93, 94);
+    width: 30%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 100px / 120px;
+    position: absolute; 
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 20px;
+}
