@@ -12,11 +12,11 @@ function Fomulaire() {
          <Form>
           <Form.Group className="mb-3">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Entrer email" />
+            <Form.Control type="email" placeholder="Entrer email" className='input'/>
           </Form.Group>
           <Form.Group className="mb-3" >
             <Form.Label>Mot de passe</Form.Label>
-            <Form.Control type="password" placeholder="Mot de passe" />
+            <Form.Control type="password" placeholder="Mot de passe"  className='input' />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
